@@ -1,0 +1,29 @@
+/* Add CSS here */
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-image: url("https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg?cs=srgb&dl=pexels-kellie-churchman-1001682.jpg&fm=jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card { height: fit-content; }
+
+.card-header { height: 155px; }
+
+.tag {
+    transform: rotate(45deg);
+    top: 20px;
+    right: -50px;
+    height: 30px;
+}
+
+.death-icon { top: 110px; }
+
+.row {
+    width: 100%;
+    margin: 0px;
+}
+
+.btn, span { font-size: 11px; }

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background:linear-gradient(30deg, rgba(242,115,190,.9) 0%, rgba(232,100,60,.9) 50%, rgba(0,0,0,0) 100%), url("https://i.ibb.co/7N0qPg5/books-bookshelf.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box {
+    padding-top: 150px!important;
+}
+
+.display-1 {
+    font-family: 'Rouge Script', cursive !important;
+}
+
+.welcome-text {
+    text-align-last: center;
+}
+
+.results-btn {
+    padding: 8px 50px !important;
+    color: rgba(242,115,190,.9);
+    transition: 1s all;
+}
+
+.results-btn:hover {
+    transform: translate(0px, -10px);
+    color: rgba(242,115,190,.9);
+}

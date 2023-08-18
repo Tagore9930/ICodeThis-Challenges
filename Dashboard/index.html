@@ -1,0 +1,295 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="row px-3 pt-5">
+            <div class="col-xxl-6 col-md-8 col-12">
+                <ul class="nav">
+                    <li class="px-3 py-2 text-uppercase">new</li>
+                    <li class="px-3 py-2 text-uppercase">Gift Guide</li>
+                    <li class="px-3 py-2 text-uppercase">promo</li>
+                    <li class="px-3 py-2 text-uppercase">trends</li>
+                    <li class="px-3 py-2 text-uppercase">social</li>
+                </ul>
+            </div>
+            <div class="col-xxl-6 col-md-4 col-12">
+
+                <button class="btn py-0 d-md-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                    <i class="bi bi-list text-dark fs-3 py-0"></i>
+                </button>
+                <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+                    aria-labelledby="offcanvasWithBothOptionsLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Menu</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <aside class="mt-4">
+                            <div class="ps-3">
+                                <h5 class="text-color-One text-uppercase">Categories</h5>
+
+                                <p class="mb-2 fs-5 fw-semibold">
+                                    <i class="bi bi-chevron-down fs-6"></i>
+                                    <span>Women</span>
+                                </p>
+                                <ul class="ps-3" style="list-style: none;">
+                                    <li class="aside-item py-1 px-0 text-color-One">OuterWear</li>
+                                    <li class="aside-item py-1 px-0">Bombers</li>
+                                    <li class="aside-item py-1 px-0">Blazers</li>
+                                    <li class="aside-item py-1 px-0">Dresses</li>
+                                    <li class="aside-item py-1 px-0">Jumpsuits</li>
+                                    <li class="aside-item py-1 px-0">Tops</li>
+                                    <li class="aside-item py-1 px-0">Trousers</li>
+                                    <li class="aside-item py-1 px-0">Jeans</li>
+                                    <li class="aside-item py-1 px-0">Shorts</li>
+                                    <li class="aside-item py-1 px-0">Skirts</li>
+                                    <li class="aside-item py-1 px-0">T-shirts</li>
+                                    <li class="aside-item py-1 px-0">Gymwear</li>
+                                    <li class="aside-item py-1 px-0">Basics</li>
+                                    <li class="aside-item py-1 px-0">Shoes</li>
+                                    <li class="aside-item py-1 px-0">Bags</li>
+                                </ul>
+
+                                <p class="mb-2 fs-5 fw-semibold">
+                                    <i class="bi bi-chevron-right fs-6"></i>
+                                    <span>Man Kids</span>
+                                </p>
+                                <p class="mb-2 fs-5 fw-semibold">
+                                    <i class="bi bi-chevron-right fs-6"></i>
+                                    <span>Accesories</span>
+                                </p>
+                                <p class="mb-2 fs-5 fw-semibold">
+                                    <i class="bi bi-chevron-right fs-6"></i>
+                                    <span>Editorials</span>
+                                </p>
+                                <div class="card bg-color-Two bg border-0 w-100">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title text-color-One">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of
+                                            the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+
+                <ul class="nav float-end">
+                    <li class="p-2">
+                        <button class="btn btn-outline-danger login rounded-5">Sign in</button>
+                    </li>
+                    <li class="p-2">
+                        <button class="btn btn-danger bg-color-One rounded-5 signUp">Sign up</button>
+                    </li>
+                    <li class="p-2">
+                        <p class="position-relative mt-1">
+                            <i class="bi bi-cart3 position-absolute"></i>
+                            <span class="position-absolute cart-counter text-color-One fw-bold">2</span>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row bg-white px-4">
+            <div class="col-12">
+                <p class="my-2 px-1">
+                    <span>Home > Categories > Outerwear</span>
+                    <i class="bi bi-search float-end"></i>
+                </p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="row">
+            <div class="col-md-3 d-none  d-md-block">
+                <aside class="mt-4">
+                    <div class="ps-3">
+                        <h5 class="text-color-One text-uppercase">Categories</h5>
+
+                        <p class="mb-2 fs-5 fw-semibold">
+                            <i class="bi bi-chevron-down fs-6"></i>
+                            <span>Women</span>
+                        </p>
+                        <ul class="ps-3" style="list-style: none;">
+                            <li class="aside-item py-1 px-0 text-color-One">OuterWear</li>
+                            <li class="aside-item py-1 px-0">Bombers</li>
+                            <li class="aside-item py-1 px-0">Blazers</li>
+                            <li class="aside-item py-1 px-0">Dresses</li>
+                            <li class="aside-item py-1 px-0">Jumpsuits</li>
+                            <li class="aside-item py-1 px-0">Tops</li>
+                            <li class="aside-item py-1 px-0">Trousers</li>
+                            <li class="aside-item py-1 px-0">Jeans</li>
+                            <li class="aside-item py-1 px-0">Shorts</li>
+                            <li class="aside-item py-1 px-0">Skirts</li>
+                            <li class="aside-item py-1 px-0">T-shirts</li>
+                            <li class="aside-item py-1 px-0">Gymwear</li>
+                            <li class="aside-item py-1 px-0">Basics</li>
+                            <li class="aside-item py-1 px-0">Shoes</li>
+                            <li class="aside-item py-1 px-0">Bags</li>
+                        </ul>
+
+                        <p class="mb-2 fs-5 fw-semibold">
+                            <i class="bi bi-chevron-right fs-6"></i>
+                            <span>Man Kids</span>
+                        </p>
+                        <p class="mb-2 fs-5 fw-semibold">
+                            <i class="bi bi-chevron-right fs-6"></i>
+                            <span>Accesories</span>
+                        </p>
+                        <p class="mb-2 fs-5 fw-semibold">
+                            <i class="bi bi-chevron-right fs-6"></i>
+                            <span>Editorials</span>
+                        </p>
+                        <div class="card bg-color-Two bg border-0 w-100">
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-color-One">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of
+                                    the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+            <div class="col-md-9">
+                <section>
+                    <div class="homepage-slider">
+                        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false"
+                            data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item rounded active">
+                                    <img src="https://i.ibb.co/LSs97V1/img-slide1.webp" alt="image 1"
+                                        class="w-100 rounded Slider-images cursor-pointer">
+                                </div>
+                                <div class="carousel-item rounded">
+                                    <img src="https://i.pinimg.com/736x/62/7f/00/627f0051c61c5135d9782a42de95f1a3--cheap-jackets-floral-jacket.jpg" alt="image 2"
+                                        class="w-100 rounded Slider-images cursor-pointer">
+                                </div>
+                                <div class="carousel-item rounded">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjsdNJp8E_0w9XPpzQfXSeP_XY-gOQ2dJNXA&usqp=CAU" alt="image 3"
+                                        class="w-100 rounded Slider-images cursor-pointer">
+                                </div>
+                                <div class="carousel-item rounded">
+                                    <img src="https://i.pinimg.com/474x/11/35/3c/11353c1e3b858a474f471e5f2f47bb9f.jpg" alt="image 4"
+                                        class="w-100 rounded Slider-images cursor-pointer">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev"
+                                fdprocessedid="2il0nr">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next"
+                                fdprocessedid="8iazf">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xl-4 col-6 py-3">
+                            <div class="card cards" style="width: 18rem;">
+                                <img src="https://i.ibb.co/NKvRNxb/product1.webp" class="card-img-top" alt="...">
+                                <div class="card-body text-center p-0">
+                                    <h5 class="card-title">249.00</h5>
+                                    <p class="card-text">Shorted oversized sweatshirt</p>
+                                    <a href="#"
+                                        class="add-to-bag-button btn text-white bg-color-One w-100 h-100 rounded-top-0 py-4 d-none">Add
+                                        to bag</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-6 py-3">
+                            <div class="card cards" style="width: 18rem;">
+                                <img src="https://i.ibb.co/5LtY69k/product2.webp" class="card-img-top" alt="...">
+                                <div class="card-body text-center p-0">
+                                    <h5 class="card-title">249.00</h5>
+                                    <p class="card-text">Shorted oversized sweatshirt</p>
+                                    <a href="#"
+                                        class="add-to-bag-button btn text-white bg-color-One w-100 h-100 rounded-top-0 py-4 d-none">Add
+                                        to bag</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-6 py-3">
+                            <div class="card cards" style="width: 18rem;">
+                                <img src="https://i.ibb.co/19ZKqck/product3.webp" class="card-img-top" alt="...">
+                                <div class="card-body text-center p-0">
+                                    <h5 class="card-title">249.00</h5>
+                                    <p class="card-text">Shorted oversized sweatshirt</p>
+                                    <a href="#"
+                                        class="add-to-bag-button btn text-white bg-color-One w-100 h-100 rounded-top-0 py-4 d-none">Add
+                                        to bag</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-6 py-3">
+                            <div class="card cards" style="width: 18rem;">
+                                <img src="https://i.ibb.co/NKvRNxb/product1.webp" class="card-img-top" alt="...">
+                                <div class="card-body text-center p-0">
+                                    <h5 class="card-title">249.00</h5>
+                                    <p class="card-text">Shorted oversized sweatshirt</p>
+                                    <a href="#"
+                                        class="add-to-bag-button btn text-white bg-color-One w-100 h-100 rounded-top-0 py-4 d-none">Add
+                                        to bag</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-6 py-3">
+                            <div class="card cards" style="width: 18rem;">
+                                <img src="https://i.ibb.co/5LtY69k/product2.webp" class="card-img-top" alt="...">
+                                <div class="card-body text-center p-0">
+                                    <h5 class="card-title">249.00</h5>
+                                    <p class="card-text">Shorted oversized sweatshirt</p>
+                                    <a href="#"
+                                        class="add-to-bag-button btn text-white bg-color-One w-100 h-100 rounded-top-0 py-4 d-none">Add
+                                        to bag</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-6 py-3">
+                            <div class="card cards" style="width: 18rem;">
+                                <img src="https://i.ibb.co/19ZKqck/product3.webp" class="card-img-top" alt="...">
+                                <div class="card-body text-center p-0">
+                                    <h5 class="card-title">249.00</h5>
+                                    <p class="card-text">Shorted oversized sweatshirt</p>
+                                    <a href="#"
+                                        class="add-to-bag-button btn text-white bg-color-One w-100 h-100 rounded-top-0 py-4 d-none">Add
+                                        to bag</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
